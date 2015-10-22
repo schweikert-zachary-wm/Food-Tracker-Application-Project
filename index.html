@@ -7,27 +7,40 @@
     <meta charset="UTF-8">
     <title>Food tracker</title>
 </head>
-<body onload="popup()">
+<body>
 
+<form>
+    Food Name:
+    <input type="text" id="foodName">
+    Description:
+    <input type="text" id="description">
+    Purchase Date:
+    <input type="text" id="purchase">
+    Expiration Date:
+    <input type="text" id="Expiration Date">
+</form>
+<button onClick="newRow()">Button</button>
 
 
 <table>
 <tr>
-    <td>Food Name</td> <td> Description</td> <td> Date of Purchase</td> <td> Expiration Date</td>
+    <td> <strong> Food Name </strong></td><td> <strong> Description </strong></td> <td> <strong> Purchase Date</strong></td><td><strong>Expiration Date</strong></td>
 </tr>
-<tr>
-    <td><div id="foodName1"; onclick="changeText1(this)"> foodName1</div></td><td><div id="foodName2"> foodName2</div></td>
-</tr>
+
+<div id="newRow"> div  stuff</div>
+
+
+
+
+
+
+
+
 
 
 
 
 </table>
-
-<h1 onclick="changeText(this)"><div id="thing1">Click on this text!!</div> </h1>
-
-
-
 
 </body>
 </html>
