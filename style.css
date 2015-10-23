@@ -1,5 +1,18 @@
 
-td {
+h2 {
+    float: left;
+    text-align: center;
     width: 200px;
     border: 1px solid black;
+    margin: auto;
+}
+#buttonSpace {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+    width: 50px;
+}
+form {
+    margin: auto;
+    width: 1090px;
 }
