@@ -4,7 +4,10 @@ h2 {
     text-align: center;
     width: 200px;
     border: 1px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
     margin: auto;
+    background-color: lightgray;
 }
 #buttonSpace {
     padding-bottom: 50px;
@@ -13,6 +16,17 @@ h2 {
     width: 50px;
 }
 form {
+    width: 1082px;
+    background-color: lightslategray;
+}
+body {
+    width: 1088px;
     margin: auto;
-    width: 1090px;
+    background-color: darkgray;
+}
+
+#title1 {
+    width: 1088px;
+    margin: auto;
+    background-color: lightslategray;
 }
