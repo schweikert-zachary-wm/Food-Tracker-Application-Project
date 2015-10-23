@@ -1,15 +1,4 @@
 
-
-
-//function newRow()  {
-  //  var foodName = document.getElementById('foodName').value;
-    //  document.getElementById('newRow').innerHTML = "<h2 id='foodName2'> foodName2 goes here </h2><br><br><div id='newRow'> div  stuff</div>";
-    //  document.getElementById('foodName2').innerHTML = foodName;
-
-//}
-
-
-
 function newRow (){
 
     var foodName = document.getElementById('foodName').value;
@@ -44,20 +33,16 @@ function newRow (){
     // add the newly created element and its content into the DOM
     var currentDiv = document.getElementById("foodName1");
     document.body.insertBefore(newDiv, currentDiv);
-}
 
-function expired () {
+    function expire1 () {
 
-}
-function validate(evt) {
-    var theEvent = evt || window.event;
-    var key = theEvent.keyCode || theEvent.which;
-    key = String.fromCharCode( key );
-    var regex = /[0-9]|\//;
-    if( !regex.test(key) ) {
-        theEvent.returnValue = false;
-        if(theEvent.preventDefault) theEvent.preventDefault();
+    var expire1 = expire.substring(0,4);
+        if(expire1 <= 2015) {
+            
+        }
+
     }
+expire1()
 }
 
 
@@ -69,9 +54,3 @@ function validate(evt) {
 
 
 
-
-
-
-
-
-setInterval(expired(),60000);
