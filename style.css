@@ -9,6 +9,26 @@ h2 {
     margin: auto;
     background-color: lightgray;
 }
+h3 {
+    float: left;
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: auto;
+    background-color: goldenrod;
+}
+h4 {
+    float: left;
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: auto;
+    background-color: red;
+}
 #buttonSpace {
     padding-bottom: 50px;
     padding-top: 50px;
